@@ -1,13 +1,105 @@
 /* mobile device responsive here */
 @media screen and (max-width: 576px) {
+  /* navbar responsive here */
+  .navbar .hum-bar {
+    display: block;
+  }
+  .navbar ul {
+    display: none;
+  }
+  /* .banner responsive here  */
+  .banner-container {
+    flex-direction: column;
+  }
+  .banner-btn .banner-btn-one {
+    padding: 16px 15px;
+  }
+  .banner-btn .banner-btn-two {
+    padding: 16px 34px;
+  }
+  .banner-container .banner-img {
+    margin-top: 50px;
+  }
+  .free-work-out {
+    top: 40px;
+    right: 8px;
+  }
+  .video-tutorial {
+    bottom: 245px;
+    left: 16px;
+  }
 
-    /* navbar responsive here */
-    .navbar .hum-bar {
-        display: block;
-    }
-    .navbar ul {
-        display: none;
-    }
-    /* .banner responsive here  */
-    
+  /* change habits responsive here */
+  .change-habits-container {
+    grid-template-columns: 1fr;
+  }
+  .change-habits-content .change-habits-title {
+    font-size: 35px;
+  }
+
+  /* run extra mile styles here  */
+  .run-extra-mile-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .run-extra-mile-content .extra-mile-title {
+    font-size: 45px;
+  }
+  .run-extra-mile-content .btn-container {
+    text-align: center;
+  }
+  .run-extra-mile-content .run-extra-btn {
+    width: 100%;
+  }
+  /* training ane experience responsive here*/
+  .training-content-container {
+    max-width: 100%;
+  }
+  .training-exercise-title {
+    font-size: 1.5rem;
+  }
+  .box {
+    height: 200px;
+  }
+  /* bmi calculator styles here */
+  .bmi-calculator-container {
+    grid-template-columns: 1fr;
+  }
+  .calculate-your-bmi input,
+  input,
+  .select-one {
+    margin-left: 0px;
+  }
+  /* meet our team responsive here */
+  .our-team-img-container {
+    grid-template-columns: 1fr;
+  }
+  /* footer section responsive here */
+  .footer-section-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .fitness-part .fitness-title {
+    margin-bottom: 15px;
+  }
+  .fitness-part .fitness-description {
+    margin-right: 70px;
+  }
+  .get-starts-part {
+    flex-direction: column;
+  }
+  .get-starts-container .footer-title {
+    margin-bottom: 10px;
+  }
+  .get-starts-container .get-starts-list li {
+    padding: 6px 0;
+    font-size: 22px;
+  }
+  /* about section styles here */
+  .img-items {
+    grid-template-columns: 1fr;
+  }
+  .about-section-heading {
+    padding-bottom: 30px;
+  }
 }
