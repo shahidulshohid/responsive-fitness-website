@@ -42,7 +42,7 @@ body {
 }
 .navbar .nav-title {
   color: rgb(230, 83, 60);
-  font-size: 38px;
+  font-size: 40px;
   font-weight: 800;
   font-family: "Moon Dance", cursive;
 }
@@ -180,11 +180,12 @@ body {
 }
 .section-description {
   font-size: 1rem;
-  color:  rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
   padding-top: 15px;
 }
 .about-img {
   position: relative;
+  height: 400px;
   transition: 0.5s;
 }
 .img-items-inner {
@@ -194,6 +195,7 @@ body {
   width: 100%;
   height: 100%;
   border-radius: 10px 10px 0 0;
+  object-fit: cover;
 }
 .about-img .overly {
   position: absolute;
@@ -261,10 +263,10 @@ body {
 .img-items-inner:hover .about-content {
   opacity: 1;
   z-index: 1;
-  transform: translateY(20px);
+  transform: translateY(12px);
 }
 .img-items-inner:hover .about-img {
-  transform: translateY(-85px);
+  transform: translateY(-100px);
 }
 /* change your habits styles here */
 .change-your-habits {
@@ -364,7 +366,7 @@ body {
   max-width: 50%;
 }
 .training-exercise-title {
-  color:#fff;
+  color: #fff;
   font-size: 2.5rem;
   font-weight: 900;
   margin-bottom: 10px;
@@ -381,6 +383,7 @@ body {
 }
 .box {
   height: 300px;
+  position: relative;
 }
 .box img {
   width: 100%;
@@ -390,20 +393,44 @@ body {
   grid-column: 1/4;
   grid-row: 1/2;
 }
+.overly-one {
+  background: rgba(6, 255, 210, 0.5);
+}
 .box-2 {
   grid-column: 4/10;
+}
+.overly-two {
+  background: rgba(255, 0, 0, 0.3);
 }
 .box-3 {
   grid-column: 10/-1;
 }
+.overly-three {
+  background: rgba(0, 0, 0, 0.5);
+}
 .box-4 {
   grid-column: 1/6;
+}
+.overly-four {
+  background:rgba(0, 0, 0, 0.5);
 }
 .box-5 {
   grid-column: 6/9;
 }
+.overly-five {
+  background: rgba(66, 255, 0, 0.3);
+}
 .box-6 {
   grid-column: 9/-1;
+}
+.overly-six {
+  background: rgba(0, 71, 255, 0.3);
+}
+.overly {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
 }
 /* bmi calculator styles here */
 .bmi-calculator-content {
@@ -589,4 +616,3 @@ input,
   text-align: center;
   margin-top: 25px;
 }
-
