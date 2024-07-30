@@ -356,6 +356,10 @@ body {
   height: 100%;
   border-radius: 16px;
 }
+.img-resize {
+  object-position: 68% 30%;
+  object-fit: none;
+}
 /* training and experience styles here  */
 .training-exercise-section {
   width: 90%;
