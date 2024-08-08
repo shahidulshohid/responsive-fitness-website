@@ -8,7 +8,6 @@
 body {
   background-color: rgb(0, 0, 0);
   font-family: "Inter", sans-serif;
-  max-width: 1535px;
 }
 /* shared styles */
 .display-flex {
@@ -33,6 +32,10 @@ body {
   );
 }
 /* navbar styles here */
+.nav-and-banner {
+  max-width: 1235px;
+  margin: 0 auto;
+}
 .navbar {
   width: 90%;
   margin: 0 auto;
@@ -168,9 +171,13 @@ body {
 }
 /* about section starts here */
 .about-section {
-  max-width: 90%;
+  max-width: 1440px;
   margin: 0 auto;
   margin-top: 80px;
+}
+.container-second{
+  max-width: 90%;
+  margin: 0 auto;
 }
 .about-section-heading {
   text-align: center;
@@ -269,10 +276,14 @@ body {
   transform: translateY(-100px);
 }
 /* change your habits styles here */
+.change-your-habits-section {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 75px;
+}
 .change-your-habits {
   width: 90%;
   margin: 0 auto;
-  margin-top: 75px;
 }
 .change-habits-content {
   max-width: 600px;
@@ -297,7 +308,7 @@ body {
   gap: 30px;
 }
 .change-habits-card {
-  width: 270px;
+  width: 260px;
   margin: 0 auto;
 }
 .change-habits-img img {
@@ -320,13 +331,18 @@ body {
 }
 /* run extra mile styles here */
 .run-extra-mile-section {
-  width: 90%;
-  margin: 60px auto;
   padding: 30px;
   background-color: rgb(34, 34, 34);
   border-radius: 18px;
+  margin: 60px 0;
+}
+.run-max-width-parent {
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .run-extra-mile-container {
+  width: 90%;
+  margin: 0 auto;
   justify-content: space-between;
   align-items: center;
 }
@@ -362,9 +378,13 @@ body {
 }
 /* training and experience styles here  */
 .training-exercise-section {
-  width: 90%;
+  max-width: 1440px;
   margin: 0 auto;
   margin-bottom: 60px;
+}
+.training-exercise-items-container {
+  width: 90%;
+  margin: 0 auto;
 }
 .training-content-container {
   max-width: 50%;
@@ -452,14 +472,18 @@ body {
   line-height: 24px;
   font-size: 16px;
 }
-.bmi-calculator-pre-container {
+.background-color-bmi {
   background-color: rgba(255, 255, 255, 0.1);
+}
+.bmi-calculator-pre-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  padding-bottom: 30px;
 }
 .bmi-calculator-container {
   width: 90%;
   margin: 0 auto;
-  margin-bottom: 60px;
-  padding-bottom: 30px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -517,9 +541,13 @@ input,
 }
 /* meet our team styles here */
 .meet-out-team {
-  width: 90%;
+  max-width: 1440px;
   margin: 0 auto;
   margin-bottom: 60px;
+}
+.meet-our-team-container{
+  width: 90%;
+  margin: 0 auto;
 }
 .meet-out-team .our-team-content {
   max-width: 600px;
@@ -573,6 +601,10 @@ input,
 .footer-section {
   background-color: rgba(255, 255, 255, 0.1);
   margin-bottom: 60px;
+}
+.footer-max-width-container {
+  max-width: 1240px;
+  margin: 0 auto;
 }
 .footer-all-part-container {
   width: 90%;
